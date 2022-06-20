@@ -1,13 +1,13 @@
 <template>
   <div>
 
-    <div class="w-20 my-2 text-center">
+    <!-- <div class="w-20 my-2 text-center">
       <NuxtLink to="/product">
         <div class="bg-blue-600 text-white px-4 py-2 cursor-pointer transition-all hover:bg-blue-700">
           กลับ
         </div>
       </NuxtLink>
-    </div>
+    </div> -->
 
     <div v-if="slug == 'add'">
       <AddForm />

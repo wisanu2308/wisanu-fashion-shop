@@ -65,6 +65,7 @@
 <script>
 
 import { getProduct, deleteProduct } from '~/graphql/query.js'
+import liff from '@line/liff';
 
 export default {
   name: 'IndexPage',
@@ -76,6 +77,11 @@ export default {
   },
 
   async mounted() {
+
+    liff.init({
+      liffId: '1657234452-Q0doXp4m', // Use own liffId
+    });
+
     this.products = await this.$axios.$get('http://localhost:1337/api/products')
   },
   
