@@ -75,9 +75,13 @@ export default {
     }
   },
 
-  async fetch() {
+  async mounted() {
     this.products = await this.$axios.$get('http://localhost:1337/api/products')
   },
+  
+  // async fetch() {
+  //   this.products = await this.$axios.$get('http://localhost:1337/api/products')
+  // },
 
   methods: {
     doDelete(id) {
