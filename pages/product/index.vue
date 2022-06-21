@@ -79,7 +79,7 @@ export default {
   async mounted() {
 
     // liff.init({
-    //   liffId: '1657234452-Q0doXp4m', // Use own liffId
+    //   liffId: '1657200038-ba6qNZd6', // Use own liffId
     // });
 
     this.products = await this.$axios.$get('http://localhost:1337/api/products')
