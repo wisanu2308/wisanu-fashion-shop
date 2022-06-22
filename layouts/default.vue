@@ -1,6 +1,6 @@
 <template>
-  <div class="container mx-auto px-10">
-    <NavMenu />
+  <div class="container mx-auto px-4 lg:px-10">
+    <!-- <NavMenu /> -->
     <Nuxt />
   </div>
 </template>

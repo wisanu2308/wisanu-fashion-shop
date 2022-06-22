@@ -6,21 +6,21 @@
 
     <div class="flex flex-col">
 
-      <div class="w-full lg:w-1/2 grid grid-cols-2 py-2">
+      <div class="w-full lg:w-1/2 grid grid-cols-1 lg:grid-cols-2 py-2">
         <div class="text-xl">Name</div>
         <div class="border rounded-2xl">
           <input type="text" class="text-xl px-4 py-1 rounded-2xl focus:outline-none" v-model="txtName">
         </div>
       </div>
 
-      <div class="w-full lg:w-1/2 grid grid-cols-2 py-2">
+      <div class="w-full lg:w-1/2 grid grid-cols-1 lg:grid-cols-2 py-2">
         <div class="text-xl">Description</div>
         <div class="border rounded-2xl">
           <input type="text" class="text-xl px-4 py-1 rounded-2xl focus:outline-none" v-model="txtDescription">
         </div>
       </div>
 
-      <div class="w-full lg:w-1/2 grid grid-cols-2 py-2">
+      <div class="w-full lg:w-1/2 grid grid-cols-1 lg:grid-cols-2 py-2">
         <div class="text-xl">Price</div>
         <div class="border rounded-2xl">
           <input type="text" class="text-xl px-4 py-1 rounded-2xl focus:outline-none" v-model="txtPrice">

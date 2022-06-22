@@ -20,17 +20,17 @@
       <div class="text-2xl font-bold">รายละเอียด</div>
 
       <div class="flex flex-col">
-        <div class="w-full lg:w-1/2 grid grid-cols-2 justify-between py-2">
+        <div class="w-full lg:w-1/2 grid grid-cols-1 lg:grid-cols-2 justify-between py-2">
           <div class="text-xl">Name</div>
           <div class="">{{Name}}</div>
         </div>
 
-        <div class="w-full lg:w-1/2 grid grid-cols-2 justify-between py-2">
+        <div class="w-full lg:w-1/2 grid grid-cols-1 lg:grid-cols-2 justify-between py-2">
           <div class="text-xl">Description</div>
           <div class="">{{Description}}</div>
         </div>
 
-        <div class="w-full lg:w-1/2 grid grid-cols-2 justify-between py-2">
+        <div class="w-full lg:w-1/2 grid grid-cols-1 lg:grid-cols-2 justify-between py-2">
           <div class="text-xl">Price</div>
           <div class="">{{Price}}</div>
         </div>
